@@ -10,5 +10,7 @@ RUN apt-get update && apt-get -y install iproute2 ergw-gtp-c-node nano
 COPY pre-start.sh /etc/ergw-gtp-c-node/
 COPY ergw-gtp-c-start.sh /usr/bin/
 COPY default-vars.sh /etc/ergw-gtp-c-node/
+COPY config/sys.config /opt/ergw-gtp-c-node/releases/1.3.0/
+COPY config/vm.args /opt/ergw-gtp-c-node/releases/1.3.0/
 
 CMD ["/usr/bin/ergw-gtp-c-start.sh"]
