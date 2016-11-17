@@ -1,4 +1,4 @@
-FROM grundrausch3n/ergw-docker-base
+FROM grundrausch3n/ergw-gtp-c-node-base
 
 WORKDIR /
 COPY ergw-gtp-c-start.sh /usr/bin/
