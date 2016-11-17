@@ -1,8 +1,0 @@
--sname ergw-gtp-c-node
-
--setcookie secret
-
-+K true
-+A30
-
--mode interactive
